@@ -19,7 +19,7 @@ AppAsset::register($this);
     <title><?= Html::encode(Yii::$app->name); ?></title>
     
   <!-- FavIco -->
-    <link rel="shortcut icon" href="<?= Yii::$app->urlManager->baseUrl; ?>/favIcon.ico" />
+    <link rel="shortcut icon" href="<?= Yii::$app->urlManager->baseUrl; ?>/favicon.ico" />
     <?php $this->head() ?>
 </head>
 <body>
